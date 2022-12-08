@@ -81,3 +81,4 @@ OnUnitActiveSec=1day
 WantedBy=timers.target
 
 ```
+![jctl](./img/service_running.png)
