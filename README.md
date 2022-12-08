@@ -53,7 +53,7 @@ printf "$who\n"
 ```
 
 
-# 5 timer
+# 5 service
 service file
 ```
 [Unit]
@@ -67,7 +67,7 @@ ExecStart=/home/vagrant/vagrant_data/find_users
 [Install]
 WantedBy=multi-user.target
 ```
-
+# 6 timer
 timer file
 ```
 [Unit]
@@ -81,4 +81,5 @@ OnUnitActiveSec=1day
 WantedBy=timers.target
 
 ```
+# extral prove
 ![jctl](./img/service_running.png)
